@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'BigNoodleTitling';
+    src: url('./src/font/BigNoodleTitling.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
