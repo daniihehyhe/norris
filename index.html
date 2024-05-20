@@ -24,10 +24,10 @@
         }
     </style>
 </head>
-<body class="font-BigNoodleTitling bg-slate-900">
+<body class="font-Montserrat font-light bg-slate-900">
 <header class="flex flex-col fixed top-0 right-0 z-20 w-full">
 
-  <div class="flex items-center justify-evenly p-2 bg-gray-800 text-gray-200 md:text-xl text-sm">
+  <div class="flex items-center justify-evenly p-2 bg-gray-800 text-gray-200 md:text-xl text-xs">
 
       
             <!-- Phone Number -->
@@ -59,10 +59,10 @@
 
                     <div class="hidden text-2xl md:ml-6 lg:flex md:items-center md:space-x-8">
                         <!-- Navigation links -->
-                        <a href="#services" class="text-gray-900 hover:bg-gray-700 hover:text-gray-400 px-3 py-2 rounded-md text-xl font-medium">О продукте</a>
-                        <a href="#service" class="text-gray-900 hover:bg-gray-700 hover:text-gray-400 px-3 py-2 rounded-md text-xl font-medium">Услуги</a>
-                        <a href="#portfolio" class="text-gray-900 hover:bg-gray-700 hover:text-gray-400 px-3 py-2 rounded-md text-xl font-medium">Почему мы</a>
-                        <a href="#contacts" class="text-gray-900 hover:bg-gray-700 hover:text-gray-400 px-3 py-2 rounded-md text-xl font-medium">Контакты</a>
+                        <a href="#services" class="text-gray-900 hover:bg-gray-700 hover:text-gray-400 px-3 py-2 rounded-md text-xl font-light">О продукте</a>
+                        <a href="#service" class="text-gray-900 hover:bg-gray-700 hover:text-gray-400 px-3 py-2 rounded-md text-xl font-light">Услуги</a>
+                        <a href="#portfolio" class="text-gray-900 hover:bg-gray-700 hover:text-gray-400 px-3 py-2 rounded-md text-xl font-light">Почему мы</a>
+                        <a href="#contacts" class="text-gray-900 hover:bg-gray-700 hover:text-gray-400 px-3 py-2 rounded-md text-xl font-light">Контакты</a>
                     </div>
                 </div>
 
@@ -113,8 +113,9 @@
         <div class="absolute top-0 left-0 w-full h-full  bg-black bg-opacity-80"></div>
         
         <!-- Содержимое секции -->
-        <div class="z-10 md:w-3/6 w-5/6 ml-10 mt-20 mb-20 flex flex-col gap-12 items-start ">
-            <h1 class="text-2xl md:text-5xl md:2-2/5 text-white leading-snug font-medium text-start ">ВАША КВАРТИРА ИЛИ ДОМ ПОЛНОСТЬЮ
+        <div class="z-10 md:w-3/6 w-5/6 ml-10 mt-32 mb-32 flex flex-col gap-12 items-start ">
+  
+            <h1 class="text-2xl font-Montserrat md:text-5xl md:2-2/5 text-white leading-snug font-light text-start ">ВАША КВАРТИРА ИЛИ ДОМ ПОЛНОСТЬЮ
 НА ГОЛОСОВОМ УПРАВЛЕНИИ!</h1>
             <h2 class="text-white text-xl md:text-3xl text-start">Установка голосового, дистанционного, автоматического управления.
 Есть решения для офисов!</h2>
@@ -128,23 +129,24 @@
         </div>
     </section>
 
-  <section class="relative w-full bg-cover bg-center flex flex-col items-center justify-start text-center bg-[url('./src/images/layout_plan.webp')]" alt="layout_plan">
+  <section class="relative w-full py-20 bg-cover bg-center flex flex-col items-center justify-start text-center bg-[url('./src/images/layout_plan.webp')]" alt="layout_plan">
         <!-- Затемненный слой -->
         <div class="absolute top-0 left-0 w-full h-full  bg-black bg-opacity-80"></div>
         
         <!-- Содержимое секции -->
-        <div class="z-10 mx-8 md:ml-10 mt-20 mb-20 flex flex-col justify-center items-center">
-            <h2 class="text-3xl md:text-6xl  my-10 text-white leading-snug font-medium text-center ">Оставьте заявку и получите 20% скидку на подключение дополнительных устройств!</h2>
-            <h3 class="text-gray-300 my-10 text-base md:text-4xl text-center">С вами свяжется наш специалист и <span class="font-based text-white">БЕСПЛАТНО </span>проконсультирует Вас по вопросам систем Умного Дома!</h3>
+        <div class="z-10 mx-8 md:ml-10 md:mt-20 md:mb-20 flex flex-col justify-center items-center">
+            <h2 class="text-3xl md:text-5xl  my-10 text-white leading-snug font-light text-center ">Оставьте заявку и получите 20% скидку на подключение дополнительных устройств!</h2>
+            <h3 class="text-gray-300 my-10 text-base md:text-3xl text-center">С вами свяжется наш специалист и <span class="font-based text-white">БЕСПЛАТНО </span> <br>проконсультирует Вас по вопросам систем Умного Дома!</h3>
 <div class="flex flex-col sm:flex-row justify-center items-center w-full my-10 mx-auto">
     <!-- Поле ввода -->
-    <input type="number" placeholder="Введите ваш номер" class="text-md py-3 px-4 w-full max-w-md border border-gray-300 focus:outline-none mb-4 sm:mb-0 sm:border-r-0">
+    <input type="number" placeholder="Введите ваш номер" class="text-md py-4 px-4 w-full max-w-md border border-gray-300 focus:outline-none mb-8 sm:mb-0 sm:border-r-0 sm:flex-1">
     
     <!-- Кнопка -->
-    <button class="bg-green-800 text-white py-4 px-8 w-full sm:w-auto hover:bg-green-900 transition-colors duration-300">
+    <button class="bg-green-800 text-white py-4 px-8 w-full max-w-md sm:max-w-fit sm:w-auto hover:bg-green-900 transition-colors duration-300 sm:flex-1">
         ОСТАВИТЬ ЗАЯВКУ
     </button>
 </div>
+
 
 
 
@@ -154,7 +156,7 @@
 
 
 
-      <section class="bg-sky-500 text-black p-8 flex flex-col justify-center items-center">
+      <section class="bg-blueNor py-20 text-black p-8 flex flex-col justify-center items-center">
         <h1 class="mt-20 text-2xl md:text-4xl font-based h-1/2 flex items-center justify-center">
             ВОПРОСЫ И ОТВЕТЫ
         </h1>
@@ -180,10 +182,10 @@
   <div class="flex flex-col items-center p-4 sm:p-6 lg:p-8 bg-gradient-to-r from-green-600 to-green-900 shadow-2xl rounded-lg text-white max-w-md mx-auto">
     <div class="w-full">
       <div class="text-white">
-        <p class="text-xl font-base mb-4">
+        <p class="text-sm md:text-xl font-light mb-4">
           Мы подберем и настроим для вас оборудование, которое сделает ваш дом более комфортным и безопасным: освещение, камеры видеонаблюдения, умные замки, датчики протечек, температуры и движения.
         </p>
-        <p class="text-lg">
+        <p class="text-sm sm:text-lg">
           Спроектированные нами сценарии будут работать даже в ваше отсутствие.
         </p>
       </div>
@@ -193,10 +195,10 @@
   <div class="flex flex-col items-center p-4 sm:p-6 lg:p-8 bg-gradient-to-r from-sky-600 to-sky-900 shadow-2xl rounded-lg text-white max-w-md mx-auto">
     <div class="w-full">
       <div class="text-white">
-        <p class="text-xl font-base mb-4">
+        <p class="text-sm md:text-xl font-light mb-4"">
          Умный дом может начаться с&nbsp;нескольких приборов.  Мы&nbsp;подберем их&nbsp;для вас и&nbsp;настроим первые сценарии их&nbsp;взаимодействия.
         </p>
-        <p class="text-lg">
+        <p class="text-sm sm:text-lg">
          А&nbsp;после вы&nbsp;уже самостоятельно или с&nbsp;нашей помощью сможете дополнить умный дом новым оборудованием и&nbsp;связать их&nbsp;в&nbsp;сценарии.
         </p>
       </div>
@@ -206,10 +208,10 @@
   <div class="flex flex-col items-center p-4 sm:p-6 lg:p-8 bg-gradient-to-r from-orange-600 to-orange-900 shadow-2xl rounded-lg text-white max-w-md mx-auto">
     <div class="w-full">
       <div class="text-white">
-        <p class="text-xl font-base mb-4">
+        <p class="text-sm md:text-xl font-light mb-4"">
          Обустройство умного дома стало более простым благодаря беспроводным протоколам связи, которые продолжат работать, даже если у вас отключится wifi.Никаких проводов, ремонта и&nbsp;сложностей.
         </p>
-        <p class="text-lg">
+        <p class="text-sm sm:text-lg">
          Вся техника изготовлена специально для нашего региона, завезена в&nbsp;Кыргызстан официально через наших поставщиков и&nbsp;имеет все сертификаты и&nbsp;гарантии.
         </p>
       </div>
@@ -222,8 +224,8 @@
 
 
 
-      <section class="bg-yellow-600 text-white p-8 flex flex-col justify-center items-center">
-        <h2 class="mt-20 text-red text-2xl md:text-4xl font-based h-1/2 flex items-center justify-center">
+      <section class="bg-blueNor py-20 text-white p-8 flex flex-col justify-center items-center">
+        <h2 class="mt-20 text-red text-center text-2xl md:text-4xl font-based h-1/2 flex items-center justify-center">
             НЕ НАШЛИ ЧТО ИСКАЛИ ?
         </h2>
         <p class="mt-10 mb-20 text-xl md:text-2xl text-center md:w-3/6">

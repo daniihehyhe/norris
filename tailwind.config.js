@@ -6,8 +6,11 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			colors:{
+				blueNor: "#075373"
+			},
 			fontFamily: {
-				BigNoodleTitling: ['BigNoodleTitling', 'sans-serif'],
+				Montserrat: ['Montserrat', 'sans-serif'],
 			},
 		},
 	},
