@@ -6,7 +6,7 @@ module.exports = {
 	],
 	theme: {
 		extend: {
-			colors:{
+			colors: {
 				blueNor: "#075373"
 			},
 			fontFamily: {
@@ -16,4 +16,3 @@ module.exports = {
 	},
 	plugins: [],
 };
-
